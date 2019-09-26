@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>latihan 9b</title>
+</head>
+<body>
+	<h1>Pilih Link</h1>
+		<form>
+			<select name="myLink" id="myLink" onchange="pilihLink()">
+				<option value="http://google.com">Google.com</option>
+				<option value="http://teknik.unpas.ac.id">Website Teknik unpas</option>
+			</select>
+		</form>	
+		<script>
+			function pilihLink() {
+				var LinkTerpilih = document.getElementById('myLink').value;
+				document.location.href = LinkTerpilih;
+			}
+		</script>
+</body>
+</html>

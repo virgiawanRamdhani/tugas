@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>latihan 9a</title>
+</head>
+<body>
+		<h3>Masukan Tulisan</h3>
+		<input type="text" id="tulisan" />
+		<input type="button" value="cek" onclick="cektulisan()"/>
+
+	<script type="text/javascript">
+		
+		function cektulisan() {
+			var tulisanku = document.getElementById('tulisan').value;
+
+			if (tulisanku == "") {
+				alert("text yang anda masukan kosong");
+
+			}else {
+				alert("text yang anda masukan adalah : " + tulisanku);
+			}
+		}
+	</script>
+</body>
+</html>

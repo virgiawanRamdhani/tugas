@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>latihan 9d</title>
+</head>
+<body>
+	<p>teks yang anda masukan : <b id="tekslama">teks lama</p>
+	<p>masukan teks baru : </p>
+	<input type="text" id="userInput" placeholder="masukan teks.."> <br>
+	<input type="button" onclick="ubahTeks()" value="ubah teks">
+
+	<script>
+		function ubahTeks() {
+			var userInput =documen.getElementById('userInput').value;
+			var teksBaru = "<span style='color: red'>" + userInput + "</span>";
+		}
+	</script>
+</body>
+</html>
